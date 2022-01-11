@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Web Script</title>
+</head>
+<body>
+    <h1>Measurement in inches:</h1>
+    <script type="text/javascript">
+        const ins = window.prompt('Measurement in inches:', 0 );
+        let cents = 'No value has been entered.';
+        if(ins != null)
+            cents = ins * 2.54;
+        window.document.write('<p>', cents, '</p>');
+    </script>
+</body>
+</html>
