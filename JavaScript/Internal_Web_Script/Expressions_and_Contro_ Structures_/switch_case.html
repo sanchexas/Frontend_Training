@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Switch Case</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        const screenSize = 5;
+
+        const small = 'Small screen.';
+        const middle = 'Middle screen';
+        const big = 'Big screen';
+        const doesntExist = 'Size doesnt exist.'
+
+
+        switch(screenSize){
+            case 3:
+                window.document.write('<p>', small, '</p>');
+                break;
+            case 4:
+                window.document.write('<p>', small, '</p>');
+                break;
+            case 5:
+                window.document.write('<p>', middle, '</p>');
+                break;
+            default: 
+                window.document.write('<p>', big, '</p>');
+        }
+    </script>
+</body>
+</html>
