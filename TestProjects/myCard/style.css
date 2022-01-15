@@ -11,12 +11,13 @@ body {
 }
 
 .card {
-    width: 500px;
+    width: 350px;
     margin: 30px auto;
 
     background-color: azure;
     box-shadow: 0 0px 100px rgb(160, 160, 160);
     border-radius: 20px;
+    padding: 20px;
 }
 .avatar{
     width: 150px;
@@ -24,4 +25,26 @@ body {
     display: block;
     margin: 0 auto;
     border-radius: 90px;
+}
+.card-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(107, 38, 185);
+}
+.card-text{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-subtitle{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(56, 43, 70);
+}
+.exp-list{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-left: 0;
+    list-style-position: inside;
 }
