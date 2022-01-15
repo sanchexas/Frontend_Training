@@ -13,5 +13,15 @@ body {
 .card {
     width: 500px;
     margin: 30px auto;
-    
+
+    background-color: azure;
+    box-shadow: 0 0px 100px rgb(160, 160, 160);
+    border-radius: 20px;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 90px;
 }
