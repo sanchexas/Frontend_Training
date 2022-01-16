@@ -48,3 +48,12 @@ body {
     padding-left: 0;
     list-style-position: inside;
 }
+.socials___icon {
+	fill: #ffba00;
+	width: 35px;
+	height: 35px;
+	transition: fill .2s, opacity .2s;
+}
+.socials___icon--vk:hover {
+	fill: #5078a5;
+}
