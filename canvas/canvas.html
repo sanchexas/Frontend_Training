@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id = "can" width="10000px" height="10000px">
+        <script type="text/javascript">
+            function getRadius(degress){
+                return (Math.PI/180)*degress;
+            }
+            let canvas = document.getElementById('can');
+            let c = canvas.getContext('2d');
+            let s = canvas.getContext('2d');
+            c.lineWidth = 10;
+            c.beginPath();
+            for(let i = 1; i<=20; i++){
+                c.moveTo(500,20*i);
+                c.lineTo(200, 25*i);
+            }
+            c.moveTo(50,50);
+            c.arc(200,200,100,0,getRadius(360));
+            c.strokeStyle = "purple";
+            c.fillStyle = "yellow";
+            c.lineTo(150, 50);
+            c.lineTo(150, 150);
+            c.lineTo(50, 150);
+             c.rect(100,100,150,100);
+            c.closePath();
+            c.fill();
+            c.stroke();
+
+            s.lineWidth = 10;
+            s.beginPath();
+            for(let i = 1; i<=20; i++){
+                s.moveTo(500,15*i);
+                s.lineTo(200, 25*i);
+            }
+            // s.moveTo(25,65);
+            // s.arc(240,210,105,0,getRadius(340));
+            s.strokeStyle = "red";
+            s.fillStyle = "blue";
+            // s.lineTo(120, 45);
+            // s.lineTo(130, 100);
+            // s.lineTo(45, 160);
+            //  s.rect(120,110,160,110);
+            s.closePath();
+            s.fill();
+            s.stroke();
+        </script>
+</body>
+</html>
