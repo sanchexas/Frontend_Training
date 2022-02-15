@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function interval(){
+            window.a = window.setInterval(slide, 700);
+        }
+        function stop(){
+            window.clearInterval(window.a);
+        }
+        function slide(){
+            var b = document.getElementById("setTime");
+            b.value = parseInt(b.value) - 1;
+            if(b.value == "4"){
+                document.getElementById("IMAGE").src = "p1.jpg";
+            }else if(b.value == "3"){
+                document.getElementById("IMAGE").src = "p2.jpg";
+            }else if(b.value == "2"){
+                document.getElementById("IMAGE").src = "p3.jpg";
+            }else if(b.value == "1"){
+                document.getElementById("IMAGE").src = "p4.jpg";
+            }else if(b.value == "0"){
+                stop();
+            }
+           
+        }
+    </script>
+    <input type="text" id="setTime" value="5">
+    <input type="button" onclick="interval();" value="start">
+    <img id="IMAGE" src="">
+</body>
+</html>
