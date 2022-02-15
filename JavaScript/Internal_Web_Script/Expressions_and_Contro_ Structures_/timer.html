@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function interval(){
+            window.a = window.setInterval(minusOneSec, 1000);
+        }
+        function minusOneSec(){
+            var b = document.getElementById("setTime");
+            b.value = parseInt(b.value) - 1;
+            var c = document.getElementById("setTimeStop");
+            c.value = parseInt(c.value);
+            if(b.value == c.value){
+                stop();
+            }
+        }
+        function stop(){
+            window.clearInterval(window.a);
+        }
+    </script>
+    <input type="text" id="setTime">
+    <input type="button" onclick="interval();" value="start">
+    <input type="button" onclick="stop();" value="stop">
+    <input type="text" id="setTimeStop">
+    
+</body>
+</html>
