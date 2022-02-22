@@ -7,24 +7,25 @@
     <title>Document</title>
 </head>
 <body onload="draw();">
-    <script type="application/javascript">
-        function draw() {
+<script type="application/javascript">
+function draw() {
   var canvas = document.getElementById('canvas');
   if (canvas.getContext) {
     var ctx = canvas.getContext('2d');
 
-    ctx.fillRect(49, 50, 100, 100); //square
+    ctx.fillRect(49, 50, 100, 100); //main square
     ctx.clearRect(45, 45, 60, 60); //erases some space
-    ctx.strokeRect(50, 50, 50, 50);
+    ctx.strokeRect(50, 30, 50, 50); // square inside main square
   }
-        }
-      </script>
+}
+</script>
       <style>
-        canvas { border: 5px solid black; }
+        canvas {
+        left: 400px;
+        top: auto;
+        border: 5px solid black; 
+        }
       </style>
-    </head>
-    <body onload="draw();">
-        <canvas id="canvas" width="150" height="150"></canvas>
+        <canvas id="canvas" width="800" height="500"></canvas>
     </body>
-</body>
 </html>
