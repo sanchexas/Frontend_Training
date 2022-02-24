@@ -1,0 +1,24 @@
+.greet_card{
+    width: 400px;
+    margin: 30px auto;
+    height: 500px;
+    background-color: azure;
+    box-shadow: 0 0px 100px rgb(160, 160, 160);
+    border-radius: 20px;
+    padding: 20px;
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 90px;
+}
+.sign{
+    font-size: 30px;
+    text-align: center;
+}
