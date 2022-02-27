@@ -19,9 +19,17 @@
         if(empty($errors)){
             $user = R::dispense('users');
             $user->login = $data['login'];
-            $user->email = $data['email'];
-            $user->password = $data['password'];
+            $user->phone = $data['phone'];
+            $user->password = password_hash($data['password'], PASSWORD_DEFAULT);
             R::store($user);
+        }
+        if(R::count('users', "login = ?", array($data['login'])) > 0){
+            $errors[] = 'Пользователь с таким логином уже существует.';
+            echo '<div style="color: red;">'.array_shift($errors).'</div><hr>';
+        }
+        if(R::count('users', "phone = ?", array($data['phone'])) > 0){
+            $errors[] = 'Пользователь с таким телефоном уже существует.';
+            echo '<div style="color: red;">'.array_shift($errors).'</div><hr>';
         }
         else{
             echo '<div style="color: red;">'.array_shift($errors).'</div><hr>';

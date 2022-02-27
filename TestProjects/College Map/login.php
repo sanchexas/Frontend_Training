@@ -1,16 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <form action="/"></form>
-</body>
-</html>
-
 <?php
     require "db.php";
+    $data = $_POST;
+
+    if(isset($data['do_login']) ){
+        $errors = array();
+        $user = R::find('users', 'login = ?', array($data['login']));
+        if( $user){
+            if( password_verify($data['password'], $user->password)){
+
+            }else{
+                $errors = 'Не верно введен пароль.';
+            }
+        }else{
+            $errors = 'Пользователь с таким логином не найден.';
+        }
+    }
 ?>
