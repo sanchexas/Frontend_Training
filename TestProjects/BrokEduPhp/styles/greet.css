@@ -1,0 +1,236 @@
+body{
+    background: #b1d1fc;
+    width: 1550px;
+}
+.welcome{
+    text-align: center;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: aliceblue;
+ font-size: 55px;
+    text-shadow: #9553ea 5px 1px;
+}
+
+.title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.cards {
+    display: flex;
+    margin: 60px 100px;
+    padding: 0 100px;
+  
+  }
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.logotext{
+    position: absolute;
+    font-family:'Libre Baskerville';
+    left: 65px;
+    top: 17px;
+}
+.article{
+    font-size: 20px;
+}
+.iconsvg{
+    width: 55px;
+    height: 55px;
+}
+.signin{
+  position: absolute;
+  left: 1200px;
+  top: 35px;
+  border: none;
+  background: #7bb9ff;
+  width: 70px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transform: rotateZ(0deg);
+-ms-transform: rotateZ(0deg);
+transform: rotateZ(0deg);
+  text-align: center;
+  transition: all 0.5s;
+}
+.signup{
+  position: absolute;
+  left: 1300px;
+  top: 35px;
+  border: none;
+  background: #acffb3;
+  width: 70px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transform: rotateZ(0deg);
+-ms-transform: rotateZ(0deg);
+transform: rotateZ(0deg);
+  text-align: center;
+  transition: all 0.5s;
+}
+.signup:hover{
+  font-size: 15px;
+  border-radius: 50px;
+  
+  background: #c8ffcd;
+  transition: all 0.5s;
+  box-shadow: 0px 0px 30px #cde0fc;
+  transform: translateX(-7px);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transform: scale(1.2);
+}
+.signin:hover{
+  transform: translateX(-7px);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  color: white;
+    
+}
+.students{
+   
+  margin: 0 40px;
+width: 300px;
+height: 350px;
+background: aliceblue;
+-webkit-transform: rotateZ(20deg);
+-ms-transform: rotateZ(20deg);
+transform: rotateZ(20deg);
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+.pupils{
+    margin: 0 40px;
+    width: 300px;
+    height: 350px;
+    background:  aliceblue;
+    -webkit-transform: rotateZ(20deg);
+  -ms-transform: rotateZ(20deg);
+  transform: rotateZ(20deg);
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+.foryou{
+    margin: 0 40px;
+    width: 300px;
+    height: 350px;
+    background: aliceblue;
+    -webkit-transform: rotateZ(20deg);
+  -ms-transform: rotateZ(20deg);
+  transform: rotateZ(20deg);
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+.pupils:hover{
+    background-color: rgb(255, 219, 211);
+    box-shadow:
+    0px 5px #9553ea;
+  transform: translateX(-7px);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  
+}
+.foryou:hover{
+    background-color: rgb(213, 255, 229);
+    box-shadow:
+    5px 5px #9553ea;
+  transform: translateX(-7px);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.students:hover{
+    background-color: rgb(238, 225, 255);
+    box-shadow:
+    -5px 5px #9553ea;
+  transform: translateX(-7px);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.witwsf{
+    font-size: 30px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(130, 93, 179);
+}
+.wcydh{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(130, 93, 179);
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+.h{
+  margin: 0 40px;
+  width: 300px;
+  height: 350px;
+  border-radius: 5px;
+  background: aliceblue;
+  -webkit-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+    text-align: center;
+    transition: all 0.5s;
+}
+.h:hover{
+  background-color: rgb(203, 239, 255);
+  box-shadow:
+    -5px 5px #9553ea;
+transform: translateX(-7px);
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+}
+.gh{
+  margin: 0 40px;
+  width: 300px;
+  height: 350px;
+  background: aliceblue;
+  border-radius: 5px;
+  -webkit-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+    text-align: center;
+    transition: all 0.5s;
+}
+.gh:hover{
+  background-color: rgb(213, 255, 229);
+  box-shadow:
+    0px 5px #9553ea;
+transform: translateX(-7px);
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+}
+.wa{
+  margin: 0 40px;
+  width: 300px;
+  height: 350px;
+  background: aliceblue;
+  border-radius: 5px;
+  -webkit-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+    text-align: center;
+    transition: all 0.5s;
+}
+.wa:hover{
+  background-color: rgb(255, 235, 213);
+  box-shadow:
+  5px 5px #9553ea;
+transform: translateX(-7px);
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+}
+.footer{
+  color: #cde0fc;
+  margin-left: -8px;
+  margin-top: 40px;
+  width: auto;
+  height: 150px;
+  background-color: #2b425c;
+}
