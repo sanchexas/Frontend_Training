@@ -1,0 +1,148 @@
+body{
+    background: #253e5d;
+    transition: all 5s;
+}
+body:hover{
+    background: #446ea7;
+}
+.container {
+	padding: 0 15px;
+	width: 1200px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.signup{
+    text-align: center;
+    font-family: 'M PLUS 1';
+    font-size: 50px;
+    color: aliceblue;
+}
+.signup_board{
+    background: rgb(154, 154, 255);
+    width: 40%;
+    height: 700px;
+    border-radius: 30px;
+    position: relative;
+}
+.signup_form{
+    min-width: 5em;
+    margin: 0px auto;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+input{
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    font-family: 'M PLUS 1';
+    text-align: center;
+    transition: all 0.2s;
+}
+input::placeholder{
+    color: rgb(165, 165, 165);
+    font-size: 25px;
+    
+}
+button{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.signup_button_div{
+    margin: 0px auto;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 25em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    
+}
+.signup_button{
+    width: 120px;
+    height: 50px;
+    background: #82ff97;
+    font-size: 20px;
+    transition: all 0.2s;
+}
+.signup_button:hover{
+    background: #3ca14d;
+    font-size: 20px;
+    color: aliceblue;
+}
+.back_link{
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    top: 35em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #365988;
+    transition: all 0.5s;
+}
+a:hover{
+    color: black;
+}
+input:hover{
+    transform: scale(1.1);
+}
+.login_board{
+    background: rgb(154, 154, 255);
+    width: 40%;
+    height: 350px;
+    border-radius: 30px;
+    position: relative;
+}
+.login_button_div{
+    margin: 0px auto;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 5em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    
+}
+.login_form{
+    min-width: 5em;
+    margin: 0px auto;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.back_link_login{
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    top: 14em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+    
+
+

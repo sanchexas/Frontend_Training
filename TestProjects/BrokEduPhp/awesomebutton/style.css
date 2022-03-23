@@ -1,0 +1,29 @@
+.container{
+    padding: 0 15px;
+	width: 1200px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.awesome_button{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(3, 197, 77);
+    border: none;
+    width: 80px;
+    height: 50px;
+    border-radius: 5%;
+    color: white;
+   -webkit-transform: rotateZ(0deg);
+   -ms-transform: rotateZ(0deg);
+   transform: rotateZ(0deg);
+   text-align: center;
+   transition: all 3s;
+}
+.awesome_button:hover{
+    letter-spacing: 3px;
+    background: rgb(69, 255, 140);
+    color: black;
+    border-radius: 30px;
+    transform: translateX(-7px);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
