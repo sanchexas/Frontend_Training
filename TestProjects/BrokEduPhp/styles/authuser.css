@@ -8,6 +8,7 @@ header{
     display: flex;
     flex: row;
     padding-top: 25px;
+    padding-left: 20px;
 }
 nav{
     width: 100%;
@@ -29,5 +30,15 @@ a:hover {
 }
 .profile{
     display: flex;
-    flex: row;
+    padding-top: 15px;
+    width: 120px;
+    justify-content: space-around;
 }
+.logo{
+    transition: all 0.2s;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+
+ 
