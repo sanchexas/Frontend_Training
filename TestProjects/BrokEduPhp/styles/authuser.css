@@ -1,0 +1,33 @@
+body{
+    margin: 0 auto;
+    max-width: 1700px;
+    min-width: 500px;
+    background: #b1d1fc;
+}
+header{
+    display: flex;
+    flex: row;
+    padding-top: 25px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-family: 'M PLUS 1';
+    transition: all 0.2s;
+}
+a:hover {
+    color: white;
+    transition: all 0.2s;
+}
+.profile{
+    display: flex;
+    flex: row;
+}
